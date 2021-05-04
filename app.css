@@ -1,0 +1,79 @@
+
+body
+{
+	background-color: #ffbad2;
+    font-family: "Nunito", sans-serif;
+
+}
+
+.outerbox
+{
+	width: 90%;
+	height: 1000px;
+	background-color: #ffbad2;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.container
+{
+	width: 50%;
+	height: 1000px;
+}
+
+.a
+{
+	width: 65px;
+	height: 65px;
+	/*background-color: /*blue*/
+	font-size: 2.2em;
+	color: red;
+	/*border: 1px solid black;*/
+	background-color: white;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	border-radius: 3px;
+	padding-left: 0.5em;
+	padding-top: 0.1em
+
+}
+
+.selected
+{
+	border: 2px solid pink;
+	background-color: #baffed;
+}
+
+.change
+{
+	border: 2px solid pink;
+	background-color: #fffc98;
+}
+
+span
+{
+	display: inline;
+}
+
+
+.butn
+{
+	width: 65px;
+	height: 65px;
+	/*background-color: /*blue*/
+	font-size: 2.2em;
+	color: red;
+	/*border: 1px solid black;*/
+	background-color: #fffc98;
+	/*background: url("buttons_PNG37");*/
+	/*background-image: url("buttons_PNG37.png");*/
+
+	margin-right: 3px;
+	margin-bottom: 3px;
+	border-radius: 3px;
+	padding-left: 0.5em;
+	padding-top: 0.1em
+
+}
