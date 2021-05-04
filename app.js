@@ -19,7 +19,7 @@ for(let add_id of obj)
 // the end of setting id
 
 
-
+// this visited array will keep track for 3x3 matrix. it will tell you which number has already present in this 3x3 mat..
 
 let visited = [[0,0,0,0,0,0,0,0,0,0], [0,0,0,0,0,0,0,0,0,0], [0,0,0,0,0,0,0,0,0,0], [0,0,0,0,0,0,0,0,0,0], [0,0,0,0,0,0,0,0,0,0], [0,0,0,0,0,0,0,0,0,0], [0,0,0,0,0,0,0,0,0,0], [0,0,0,0,0,0,0,0,0,0], [0,0,0,0,0,0,0,0,0,0]]
 
@@ -41,7 +41,7 @@ for(let cell of obj)
 }
 
 
-
+//here we will select the number to be filled  in source cell , then update board accordingly.
 for(let button of buttons)
 {
 		button.addEventListener('click',(e)=>{
@@ -154,7 +154,7 @@ function solve( n, j, N)
 
 ready=document.querySelector("#sol")
  
-
+//main solution started here. 
  ready.addEventListener('click',(e)=>
 		 {
 
